@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayjo Ventures Sdn. Bhd.</title>
+    <!-- Tailwind CSS for rapid styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans antialiased text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white py-4 px-8 shadow-sm sticky top-0 z-50">
+        <h1 class="text-2xl font-bold text-pink-700">Ayjo Ventures Sdn. Bhd.</h1>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gray-900 text-white min-h-[60vh] flex items-center bg-cover bg-center" style="background-image: url('assets/hero-house.jpg');">
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div> <!-- Dark overlay -->
+        <div class="relative z-10 px-8 md:px-16 max-w-4xl">
+            <p class="text-lg mb-2">Kualiti hasil kerja pembinaan rumah yang dijamin memuaskan, telus, dan sistematik</p>
+            <h2 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">Reka & Bina Rumah Atas Tanah Sendiri</h2>
+            <a href="#contact" class="inline-block bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded">Dapatkan Sebut Harga</a>
+        </div>
+    </section>
+
+    <!-- Perkhidmatan Kami (Services) -->
+    <section class="py-16 px-8 max-w-7xl mx-auto">
+        <h3 class="text-3xl font-bold text-blue-400 mb-10 text-center">Perkhidmatan Kami</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Service 1 -->
+            <div>
+                <img src="assets/service1.jpg" alt="Pembinaan" class="w-full h-64 object-cover mb-4">
+                <h4 class="text-xl font-bold text-blue-400 mb-2 border-b pb-2">Pembinaan & Hartanah</h4>
+                <ul class="text-sm text-gray-600 space-y-2">
+                    <li>▸ Pembinaan Rumah & Bangunan Baru</li>
+                    <li>▸ Reka & Bina Rumah Atas Tanah Sendiri</li>
+                    <li>▸ Pakej Jual Tanah Lot & Pembinaan Sekali</li>
+                </ul>
+            </div>
+            <!-- Service 2 -->
+            <div>
+                <img src="assets/service2.jpg" alt="Renovasi" class="w-full h-64 object-cover mb-4">
+                <h4 class="text-xl font-bold text-blue-400 mb-2 border-b pb-2">Renovasi & Seni Bina Dalaman</h4>
+                <ul class="text-sm text-gray-600 space-y-2">
+                    <li>▸ Ubah Suai Rumah, Pejabat & Bangunan</li>
+                    <li>▸ Dekorasi Dalaman Premium</li>
+                </ul>
+            </div>
+            <!-- Service 3 -->
+            <div>
+                <img src="assets/service3.jpg" alt="Kejuruteraan" class="w-full h-64 object-cover mb-4">
+                <h4 class="text-xl font-bold text-blue-400 mb-2 border-b pb-2">Kejuruteraan Mekanikal & Elektrikal</h4>
+                <ul class="text-sm text-gray-600 space-y-2">
+                    <li>▸ Sistem Pendawaian Elektrik Domestik & Industri</li>
+                    <li>▸ Servis, Pembekalan & Pemasangan Aircond</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="bg-gray-50 py-16 px-8">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h3 class="text-3xl font-bold text-blue-400 mb-4">Ayjo Ventures Sdn. Bhd.</h3>
+                <p class="mb-4 text-gray-600">Meskipun ditubuhkan secara rasmi pada 24 Julai 2024, tunjang kekuatan Ayjo Ventures Sdn. Bhd. sebenarnya disandarkan atas paksi pengalaman industri yang amat matang selama lebih 20 tahun...</p>
+                <p class="text-gray-600">Dipandu oleh barisan pengurusan tertinggi yang berpengalaman serta disokong oleh pasukan teknikal, pelukis pelan, penyelia tapak...</p>
+            </div>
+            <div>
+                <img src="assets/about-door.jpg" alt="Galeri Mozek" class="w-full rounded shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Map -->
+    <section id="contact" class="py-16 px-8 max-w-7xl mx-auto">
+        <h3 class="text-3xl font-bold text-blue-400 mb-6">Maklumat</h3>
+        <div class="mb-8">
+            <p><strong>Email:</strong> hq@ayjo.my</p>
+            <p><strong>Alamat:</strong> No. 3 & 3A, Jalan Warisan 1, Taman Warisan Peserai, 83000 Batu Pahat, Johor.</p>
+            <p class="mt-4"><a href="tel:0142514517" class="bg-green-500 text-white py-2 px-4 rounded font-bold">Hubungi 014-2514 517</a></p>
+        </div>
+        <!-- Embed Google Map -->
+        <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <footer class="bg-gray-100 py-6 text-center text-sm text-gray-500">
+        &copy; 2026 Ayjo Ventures Sdn. Bhd. All rights reserved.
+    </footer>
+
+</body>
+</html>
