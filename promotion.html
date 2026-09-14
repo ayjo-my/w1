@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayjo Ventures Sdn. Bhd. - Promosi</title>
+    <!-- Tailwind CSS for rapid styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom glassmorphism effect */
+        .glass-panel {
+            background: rgba(40, 50, 40, 0.85); /* Sedikit lebih gelap untuk teks lebih jelas */
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+    </style>
+</head>
+<body class="font-sans antialiased bg-black min-h-screen flex items-center justify-center relative">
+
+    <!-- Background Full Screen Fixed & Darkened -->
+    <div class="fixed inset-0 z-0">
+        <!-- Dark Overlay -->
+        <div class="absolute inset-0 bg-black/75 z-10"></div> 
+        <!-- Background Image -->
+        <img src="assets/hero-house.jpg" alt="Background" class="w-full h-full object-cover object-center" />
+    </div>
+
+    <!-- Main Container -->
+    <main class="relative z-20 w-full max-w-lg mx-auto p-6 flex flex-col items-center text-center">
+        
+        <!-- Logo -->
+        <a href="/">
+            <img src="assets/ayjo-logo.png" alt="Ayjo Ventures Logo" class="h-24 mb-8 drop-shadow-lg hover:scale-105 transition-transform cursor-pointer">
+        </a>
+
+        <!-- Glass Panel Content -->
+        <div class="glass-panel w-full rounded-2xl p-10 shadow-2xl text-white">
+            
+            <!-- Construction / Maintenance Icon -->
+            <svg class="w-20 h-20 mx-auto mb-6 text-yellow-400 drop-shadow-md" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z" />
+            </svg>
+
+            <h1 class="text-3xl font-bold mb-4 tracking-wide text-green-300">Sedang Dalam Pembinaan</h1>
+            
+            <p class="text-gray-300 mb-8 leading-relaxed">
+                Harap maklum, halaman promosi kami sedang dikemas kini dengan tawaran-tawaran baharu yang menarik. Sila kembali semula sedikit masa lagi!
+            </p>
+
+            <a href="/bio" class="inline-block bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-8 rounded-full transition-all hover:-translate-y-1 shadow-lg hover:shadow-green-500/30">
+                Kembali ke Bio
+            </a>
+            
+        </div>
+
+        <!-- Footer -->
+        <footer class="mt-12 text-center text-xs text-gray-400 relative z-20 pb-4">
+            &copy; 2026 <a href="/" class="hover:text-green-300 transition-colors font-medium text-gray-300">Ayjo Ventures Sdn. Bhd. (202401029730 [1575578-M])</a>.<br>All rights reserved.
+        </footer>
+        
+    </main>
+</body>
+</html>
